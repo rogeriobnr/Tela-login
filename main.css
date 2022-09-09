@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --white: #f5f6f9;
+    --shadow: #F87A7A;
+    --blue2: #00859d;
+    --red: #D3212D;
+    --red2: #EE2533;
+}
+
+body {
+    background-color: #ccc;
+}
+
+.container {
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateY(15%);
+    color: var(--white);
+    background: var(--red);
+    background: -moz-linear-gradient(top, #D3212D 0%, #EE2533 98%, #CCCCCC 100%);
+    background: -webkit-linear-gradient(top, #D3212D 0%, #EE2533 98%, #CCCCCC 100%);
+    background: linear-gradient(to bottom, #D3212D 0%, #EE2533 98%, #CCCCCC 100%);
+    border-bottom: 7px groove var(--shadow);
+    border-radius: 18px 18px 18px 18px;
+    gap: 15px;
+
+}
+
+.container h2 {
+    margin: 2rem 0;
+    text-align: center;
+    border-bottom: 1px solid;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.form .email, .password, .button {
+    display: block;
+    width: 100%;
+
+}
+
+.form label {
+    margin-bottom: 2px;
+    font-size: 18px;
+}
+
+.email, .password, .button {
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #D3212D;
+    background-color: var(--white);
+}
+
+.button {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: var(--shadow);
+    transition: 400ms all;
+}
+
+#showPass {
+    margin-top: 15px;
+    margin-left: 8px;
+}
+
+.registration {
+    display: flex;
+    justify-content: center;
+
+}
+
+.registration a {
+    text-decoration: none;
+    margin: 0 0 0 5px;
+    color: var(--white);
+
+}
+
+.registration a:hover {
+    background-color: var(--shadow);
+    border-radius: 5px;
+    padding-inline: 5px;
+    transition: 400ms all;
+}
+
+
+/* .color1 {
+    color: #175a89;
+}
+
+.color2 {
+    color: #00688e;
+}
+
+.color3 {
+    color: #00859d;
+}
+
+.color4 {
+    color: #00b5af;
+} */
