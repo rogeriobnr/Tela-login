@@ -11,16 +11,17 @@
 
 </head>
 
-<body>
+<body class="light-theme">
+    <input type="checkbox" id="toggle-theme">
     <div class="container">
 
-        <h2>&lt; Roja Dev &gt;</h2>
+        <h2>&lt; RojaDev &gt;</h2>
         <form class="form">
 
-            <label>Email</label>
+            <label for="email">Email</label>
             <input class="email" name="email" id="email" placeholder="Digite seu email" required>
 
-            <label>Senha</label>
+            <label for="password">Senha</label>
             <input type="password" id="password" class="password" placeholder="Digite sua senha">
 
             <input type="checkbox" id="showPass" onclick="myFunction()"> <label for="showPass">Exibir senha</label>
@@ -28,7 +29,7 @@
 
 
         </form>
-        <div class="registration">Não tem cadastro? <a href="#">Cadastre-se</a></div>
+        <div class="registration">Não tem cadastro?<a href="#">Cadastre-se</a></div>
     </div>
 
 </body>
